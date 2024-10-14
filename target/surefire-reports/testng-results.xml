@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-08T18:28:00 EDT" name="Suite" finished-at="2024-10-08T18:28:50 EDT" duration-ms="50004">
+    <groups>
+      <group name="AkileshOrder">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" name="submitOrder" class="Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest"/>
+      </group> <!-- AkileshOrder -->
+    </groups>
+    <test started-at="2024-10-08T18:28:00 EDT" name="Error Validation Test" finished-at="2024-10-08T18:28:00 EDT" duration-ms="34">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-10-08T18:28:00 EDT" name="Submit Order Test" finished-at="2024-10-08T18:28:50 EDT" duration-ms="50004">
+      <class name="Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" started-at="2024-10-08T18:28:00 EDT" name="launchApplication" finished-at="2024-10-08T18:28:08 EDT" duration-ms="8307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" started-at="2024-10-08T18:28:08 EDT" name="submitOrder" data-provider="getData" finished-at="2024-10-08T18:28:25 EDT" duration-ms="16202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Akilesh@123, item=ADIDAS ORIGINAL, email=akileshnikki@outlook.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" started-at="2024-10-08T18:28:25 EDT" name="closeDriver" finished-at="2024-10-08T18:28:26 EDT" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" started-at="2024-10-08T18:28:26 EDT" name="launchApplication" finished-at="2024-10-08T18:28:33 EDT" duration-ms="7140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" started-at="2024-10-08T18:28:33 EDT" name="submitOrder" data-provider="getData" finished-at="2024-10-08T18:28:49 EDT" duration-ms="16139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Akilesh@123, item=ZARA COAT 3, email=akileshnikki@outlook.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest@4686afc2]" started-at="2024-10-08T18:28:49 EDT" name="closeDriver" finished-at="2024-10-08T18:28:50 EDT" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Akileshreddy.SeleniumFrameworkDesign.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
